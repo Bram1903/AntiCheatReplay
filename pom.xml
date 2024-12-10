@@ -344,6 +344,19 @@
 			<scope>compile</scope>
 		</dependency>
 
+		<!--
+			TotemGuard
+			Maven: n/a
+			From: https://github.com/Bram1903/TotemGuard
+		-->
+		<dependency>
+			<groupId>com.deathmotion.totemguard</groupId>
+			<artifactId>TotemGuardAPI</artifactId>
+			<version>1</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/bin/TotemGuardAPI.jar</systemPath>
+		</dependency>
+
 	</dependencies>
 
 	<build>

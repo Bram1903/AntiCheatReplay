@@ -58,6 +58,7 @@ public enum AntiCheat {
 	LIGHTANTICHEAT("LightAntiCheat", LightAntiCheatListener::new),
 	ANTIHAXERMAN("AntiHaxerman", AntiHaxermanListener::new),
 	GRIMAC("GrimAC", GrimACListener::new),
+	TOTEMGUARD("TotemGuard", TotemGuardListener::new),
 	REFLEX("Reflex", ReflexListener::new),
 	ASTROAC("AstroAC", AstroACListener::new),
 	NEGATIVITY_V1("NegativityV1", "Negativity", antiCheatReplay -> {
